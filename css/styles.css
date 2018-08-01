@@ -17,8 +17,7 @@ h2 {
 
 /* Nav Styles */
 .navbar {
-    background: transparent;
-    transition: all .25s ease-out;
+    background: #000000;
     border: 0;
 }
 
@@ -39,7 +38,7 @@ h2 {
 }
 
 .navbar-default .navbar-nav>li> a:hover {
-    color:rgba(255,255,255,.7);
+    color:rgba(255,255,255,1);
     transition: all .35s ease-out;
     font-size:14px;
 }
@@ -64,30 +63,6 @@ h2 {
 
 .s1 {
     background-image:url('../img/bg_1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.s2 {
-    background-image:url('../img/bg_2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.s3 {
-    background-image:url('../img/bg_3.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.s4 {
-    background-image:url('../img/bg_4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
