@@ -27,9 +27,9 @@ h2 {
 }
 
 .i-am {
-    display: inline-block;
+    display: block;
     color:#ffffff;
-    padding:15px;
+    padding:10px 15px;
     font-size:14px;
 }
 
@@ -129,6 +129,10 @@ h2 {
 
 /* Small Screens */
 @media only screen and (min-width : 768px) {
+    .i-am {
+        padding-top:15px;
+        padding-bottom:15px;
+    }
 }
 
 /* Medium Screens */
