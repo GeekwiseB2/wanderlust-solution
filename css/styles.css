@@ -33,13 +33,13 @@ h2 {
 
 .navbar-default .navbar-nav>li> a {
     color:rgba(255,255,255,.4);
-    transition: all 1s ease-in;
+    transition: all 1s ease-in-out;
     font-size:2px;
 }
 
 .navbar-default .navbar-nav>li> a:hover {
-    color:#ffffff;
-    transition: all .35s ease-in;
+    color:rgba(255,255,255,.7);
+    transition: all .35s ease-out;
     font-size:14px;
 }
 
@@ -67,6 +67,7 @@ h2 {
     border:0;
 }
 
+/* Main Section */
 .quote {
     position: fixed;
     bottom:20px;
