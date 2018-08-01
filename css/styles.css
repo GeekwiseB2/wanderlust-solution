@@ -20,8 +20,8 @@ h2 {
     border: 0;
 }
 
-.navbar-default .navbar-brand {
-    color:#ffffff;
+.navbar-brand img {
+    max-width: 200px;
 }
 
 .i-am {
@@ -51,6 +51,28 @@ h2 {
     background: transparent;
     color:#ffffff;
     font-size:14px;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    color:#ffffff;
+    background: transparent;
+}
+
+.navbar-collapse {
+    border:0;
+}
+
+.navbar-toggle {
+    border:0;
+}
+
+.quote {
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    text-align: right;
+    color:#ffffff;
 }
 
 .hero {
