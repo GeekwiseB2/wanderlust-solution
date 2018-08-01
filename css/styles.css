@@ -36,7 +36,6 @@ h2 {
 .navbar-default .navbar-nav>li> a {
     color:rgba(255,255,255,.4);
     transition: all 1s ease-in-out;
-    font-size:2px;
 }
 
 .navbar-default .navbar-nav>li> a:hover {
@@ -46,40 +45,17 @@ h2 {
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-    color:#ffffff;
+    color:rgba(255,255,255,1);
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background: transparent;
-    color:#ffffff;
-    font-size:14px;
-}
-
-.navbar-default .navbar-toggle,
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    color:#ffffff;
-    background: transparent;
-}
-
-.navbar-collapse {
-    border:0;
-}
-
-.navbar-toggle {
-    border:0;
+    color:rgba(255,255,255,1);
 }
 
 /* Main Section */
-.quote {
-    position: fixed;
-    bottom:20px;
-    right:20px;
-    text-align: right;
-    color:#ffffff;
-}
-
 .hero {
-    background-image:url('../demo-src/img/bg_0.jpg');
+    background-image:url('../img/bg_0.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,7 +63,7 @@ h2 {
 }
 
 .s1 {
-    background-image:url('../demo-src/img/bg_1.jpg');
+    background-image:url('../img/bg_1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +71,7 @@ h2 {
 }
 
 .s2 {
-    background-image:url('../demo-src/img/bg_2.jpg');
+    background-image:url('../img/bg_2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -103,7 +79,7 @@ h2 {
 }
 
 .s3 {
-    background-image:url('../demo-src/img/bg_3.jpg');
+    background-image:url('../img/bg_3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +87,7 @@ h2 {
 }
 
 .s4 {
-    background-image:url('../demo-src/img/bg_4.jpg');
+    background-image:url('../img/bg_4.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
