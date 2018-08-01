@@ -54,7 +54,7 @@ h2 {
 
 /* Main Section */
 .hero {
-    background-image:url('img/bg_0.jpg');
+    background-image:url('../img/bg_0.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ h2 {
 }
 
 .s1 {
-    background-image:url('img/bg_1.jpg');
+    background-image:url('../img/bg_1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
